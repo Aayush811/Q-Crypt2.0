@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: rubik;
+}
+
+body{
+    margin: 0;
+    background-color: #F6F6F6
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 100vh; */ 
+}
+
+.plain-text , .algorithm , .cipher-text{
+    border: 1px solid ;
+    width: 17rem;
+    height: 22rem;
+    margin-top: 10rem;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 10px;
+}
+
+/* .algorithm{
+    display: flex;
+    justify-content: center;
+} */
+
+.heading{
+    /* border: 1px solid red; */
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.options{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+}
+
+.encrypt , .decrypt{
+    width: 50%;
+    height: 4rem;
+    border: 1px solid;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+}
+
+.encrypt{
+    background-color: #0d6efd;
+    border-top-left-radius: 10px;
+}
+
+.decrypt{
+    border-top-right-radius: 10px;
+}
+
+.input , .output{
+    height: 18rem;
+    width: 100%;
+    /* border: 1px solid black;
+    outline: none;
+    overflow: auto; */
+    /* padding: 1rem; */
+    /* font-size: 22px; */
+}
+
+#input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 1rem;
+    font-size: 22px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: auto;
+}
+
+.action{
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    /* direction: ltr/; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .key{
+    margin-top: 3rem;
+    height: 2rem;
+} */
+
+/* button{ */
+    /* position: relative;
+    top: 3rem;
+} */
+
+/* img{
+    width: 50rem;
+    height: 50rem;
+} */
+
+
+/* .main{
+    background-image: url(hacker2.jpg);
+} */
